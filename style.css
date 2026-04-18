@@ -11,6 +11,9 @@ body {
     list-style: none;
 }
 
+.nav-ul li a{
+    color: #012a4a;
+}
 .nav-ul a{
     text-decoration: none;
 }
@@ -282,6 +285,59 @@ body {
     text-align: center;
 
 }
+
+.number-section{
+    color: white;
+    text-decoration: none;
+}
+
+.mail-a{
+    color: white;
+    text-decoration: none;
+}
+
+.services-link{
+    border-bottom: 2px solid #012a4a;
+}
+
+.home-link{
+    border-bottom: 2px solid #012a4a;
+}
+
+.Resources-link{
+    border-bottom: 2px solid #012a4a;
+}
+
+.loction{
+    width: 100%;
+    
+}
+
+.map-section{
+    margin-top: 50px;
+}
+
+.blog-link{
+    border-bottom: 2px solid #012a4a
+}
+
+.blog-container{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.blog-card{
+     border-width: 1px;
+    border-color: #012a4a;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+.blog-card img{
+    width: 100%;
+}
 @media screen and (max-width:600px) {
     .service-treatment-section {
         grid-template-columns: 1fr;
@@ -295,4 +351,6 @@ body {
     }
 
 }
+
+
 
