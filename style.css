@@ -333,10 +333,16 @@ body {
     border-color: #012a4a;
     border-style: solid;
     border-radius: 2px;
+    padding: 30px;
+
 }
 
 .blog-card img{
     width: 100%;
+}
+
+.blog-heading{
+    text-align: center;
 }
 @media screen and (max-width:600px) {
     .service-treatment-section {
