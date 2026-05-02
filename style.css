@@ -152,7 +152,9 @@ body {
     height: 100%;
 }
 
-.history-section-img-div img {}
+.history-section-img-div img{
+
+}
 
 .history-section-btn {
     background-color: #023E8A;
@@ -164,7 +166,9 @@ body {
     color: white;
 }
 
-.contact-footer h3 {}
+.contact-footer h3{
+
+}
 
 .email-info {
     display: flex;
@@ -341,9 +345,23 @@ body {
     width: 100%;
 }
 
+
+
 .blog-heading{
     text-align: center;
 }
+
+.whatsapp-icon{
+
+}
+
+.whatsapp-icon-div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
 @media screen and (max-width:600px) {
     .service-treatment-section {
         grid-template-columns: 1fr;
