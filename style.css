@@ -84,11 +84,13 @@ body {
 .consult-btn {
     color: white;
     background-color: #012a4a;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20Px;
+    padding-bottom: 20px;
     border: none;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .owner-bio-section {
@@ -351,7 +353,7 @@ body {
     text-align: center;
 }
 
-.whatsapp-icon{
+/* .whatsapp-icon{
 
 }
 
@@ -359,7 +361,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-}
+} */
 
 
 @media screen and (max-width:600px) {
@@ -368,12 +370,31 @@ body {
         justify-content: center;
         margin-left: 10px;
         margin-right: 10px;
+        
+    }
+    .history-section{
+        flex-direction: column;
+    }
+
+    .history-section div {
+    width: 100%;
+    }
+
+    .div-nav{
+        flex-direction: column;
     }
 
     .nav-ul {
         flex-direction: column;
     }
 
+    .footer-contact-info {
+    flex-direction: column;
+    }
+
+    .owner-bio-section {
+    flex-direction: column;
+    }
 }
 
 
