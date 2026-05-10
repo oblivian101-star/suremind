@@ -69,11 +69,12 @@ body {
 
 .hero-section-div {
     background-color: #013a6397;
-    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 120PX;
 }
 
 .hero-section-div p {
@@ -93,7 +94,7 @@ body {
     font-weight: bold;
 }
 
-.owner-bio-section {
+.-bio-section {
     display: flex;
     justify-content: right;
     background-color: #d1dfe5;
@@ -109,6 +110,8 @@ body {
     flex-direction: column;
     padding: 50px;
 }
+
+
 
 .owner-bio-img-div {
     width: 50%;
@@ -394,6 +397,11 @@ body {
 
     .owner-bio-section {
     flex-direction: column;
+
+    }
+
+    .owner-bio-img-div{
+    width: 100%;
     }
 }
 
